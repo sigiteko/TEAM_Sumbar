@@ -1,4 +1,4 @@
-# The Transformer earthquake alerting model (TEAM)
+# The Transformer earthquake alerting model (TEAM) and TEAM-LM
 The Transformer Earthquake Alerting Model is a deep learning model for real time estimation of peak ground acceleration (TEAM), earthquake magnitude and earthquake location (TEAM-LM).
 This software package contains the joint implementation of both TEAM and the derivative TEAM-ML, as well as the scripts for training and evaluating these models.
 In addition, it contains scripts to download an early warning datasets for Japan and implementations of baseline approaches for the estimation of earthquake magnitude and peak ground acceleration.
@@ -11,7 +11,7 @@ Please note that this implementation is intended for research purpose only. Prod
 
 ## Installation
 
-We recommend using conda. TEAM requires python version 3.6 or higher.
+We recommend using conda. TEAM requires python version 3.7 or higher.
 Please install python requirements with `pip install -r requirements.txt`.
 Note that this does not install GPU support for tensorflow.
 If required, GPU support needs to be installed manually.
@@ -197,7 +197,7 @@ The predictions are a pickle file containg a list consisting of:
 - Values of alpha
     
 ## Datasets
-
+The dataset for West Sumatra requires permission from BMKG.
 The dataset for Italy is available at [10.5880/GFZ.2.4.2020.004](https://doi.org/10.5880/GFZ.2.4.2020.004).
 The dataset for Chile is available at [10.5880/GFZ.2.4.2021.002](https://doi.org/10.5880/GFZ.2.4.2021.002).
 To obtain the dataset for Japan, please run the following commands.
