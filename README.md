@@ -149,7 +149,7 @@ When using **TEAM** or **TEAM-LM**, please cite the software and key publication
 ---
 
 ## Acknowledgements
-- Original TEAM & TEAM-LM implementation: [GFZ Data Services](https://dataservices.gfz-potsdam.de).  
+- Original TEAM & TEAM-LM implementation: [GFZ Data Services]([https://dataservices.gfz-potsdam.de](https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=b028d9d5-832e-11eb-9603-497c92695674)).  
 - This repository modifies the codebase for **TensorFlow 2.15 compatibility** and additional research experiments.  
 
 ---
